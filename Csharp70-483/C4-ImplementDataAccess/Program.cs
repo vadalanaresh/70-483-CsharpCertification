@@ -10,6 +10,9 @@ namespace C4_ImplementDataAccess
     {
         static void Main(string[] args)
         {
+            var drive = new Drives();
+            drive.PrintDriveInfo();
+            Console.Read();
         }
     }
 }
